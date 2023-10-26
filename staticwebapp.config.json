@@ -2,13 +2,8 @@
 	"trailingSlash": "auto",
 	"routes": [
 		{
-			"route": "/*",
+			"route": "/metaverse",
 			"redirect": "/"
 		}
-	],
-	"responseOverrides": {
-		"404": {
-			"redirect": "/"
-		}
-	}
+	]
 }
