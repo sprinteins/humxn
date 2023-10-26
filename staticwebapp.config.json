@@ -3,7 +3,7 @@
 	"routes": [
 		{
 			"route": "/metaverse",
-			"redirect": "/"
+			"rewrite": "/"
 		}
 	]
 }
