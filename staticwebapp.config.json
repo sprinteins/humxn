@@ -1,0 +1,14 @@
+{
+	"trailingSlash": "auto",
+	"routes": [
+		{
+			"route": "/*",
+			"redirect": "/"
+		}
+	],
+	"responseOverrides": {
+		"404": {
+			"redirect": "/"
+		}
+	}
+}
